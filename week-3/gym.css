@@ -1,0 +1,36 @@
+nav ul li{
+    display: inline;
+}
+
+nav button{
+    float: right;
+    height: 90px;
+    margin: 5px;
+}
+
+nav img{
+    height: 90px;
+    margin: 5px;
+    float: left;    
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: aqua;
+    height: 100px;
+}
+
+
+nav{
+    display: inline;
+    text-align: center;
+}
+
+div{
+    height: 500px;
+    background-image: url("https://media.tenor.com/cNw4XqJKlCoAAAAC/rat-push.gif");
+    text-align: center;
+    color: rgb(0, 255, 21);
+    background-size: cover;
+}
