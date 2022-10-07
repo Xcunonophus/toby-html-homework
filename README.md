@@ -5,3 +5,6 @@
 
 ## Week 2
 [Text adventure](week-2)
+
+## Week 3
+[Gym website](week-3)
