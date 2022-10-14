@@ -8,3 +8,6 @@
 
 ## Week 3
 [Gym website](week-3)
+
+## Week 4
+[Harry Potter](week-4)

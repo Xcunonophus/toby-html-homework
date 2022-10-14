@@ -1,0 +1,92 @@
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    font-family: 'Harry Potter';
+    color: white;
+    background-image: url('img/banner.jpg');
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: max(4vh,30px);
+    min-height: 500px;
+    text-shadow: 1px 1px 0 black, 1px -1px 0 black, -1px 1px 0 black, -1px -1px 0 black;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+}
+
+.left1 {
+    float: left;
+    width: 50%;
+}
+
+.left1 img {
+    max-width: 90%;
+    padding: 5%;
+}
+
+.right1 {
+    color: white;
+    float: right;
+    width: 40%;
+    padding: 5%;
+}
+
+.right2 {
+    float: right;
+    width: 50%;
+}
+
+.right2 img {
+    max-width: 90%;
+    padding: 5%;
+}
+
+.left2 {
+    color: white;
+    float: left;
+    width: 40%;
+    padding: 5%;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
