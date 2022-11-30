@@ -1,0 +1,155 @@
+/* Define width for logo image */
+.logoimg {
+    width: 150px;
+}
+
+/* Define layout for navbar */
+.stickynavbar {
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    margin-left: 10px;
+    /* Make sticky */
+    position: fixed;
+}
+
+/* Margin and size for navbar images */
+.stickynavbar img {
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Define layout for menu image */
+.menuimg {
+    right: 4vw;
+    top: 4vh;
+    width: 70px;
+    /* Make sticky */
+    position: fixed;
+}
+
+/* Defines style for small square div box */
+.smallsquare {
+    width: 20px;
+    height: 20px;
+    background-color: #F67C92;
+    margin: 20px 0px;
+}
+
+/* Defines style for big square div box */
+.bigsquare {
+    width: 30px;
+    height: 30px;
+    background-color: #F67C92;
+    margin: 10px 0px;
+}
+
+/* Defines style for long style hr line */
+.longline {
+    width: 150px;
+    background-color: #F67C92;
+    border: none;
+    height: 3px;
+}
+
+/* Defines style for short style hr line */
+.shortline {
+    width: 110px;
+    background-color: #F67C92;
+    border: none;
+    height: 3px;
+}
+
+/* Defines right-alignment for styled hr */
+.lineright {
+    text-align: right;
+    margin-right: 0;
+}
+
+/* Defines left-alignment for styled hr */
+.lineleft {
+    text-align: left;
+    margin-left: 0;
+}
+
+/* Custom flex setup for advert elements */
+.advertviselements {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 300px;
+    margin-right: 2vw;
+    margin-top: 20px;
+}
+
+/* Centre and remove top margin for advert boxes */
+.advertdiv {
+    margin-top: 0px;
+    text-align: center;
+}
+
+/* Custom spacer div to space advert text/button to the left of centre */
+.advertspacer {
+    width: 250px;
+}
+
+/* Define image width for advert elements */
+.adpics {
+    width: 150px;
+}
+
+/* Defines global style for buttons on the page */
+.button {
+    color: black;
+    display: flex;
+    height: 70px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F67C92;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+/* All buttons should have pink bg and white text on hover */
+.button:hover {
+    background-color: #F67C92;
+    color: white;
+}
+
+/* For buttons that need to be larger - set to 200px */
+.twohundredbtn {
+    width:200px;
+}
+
+/* Custom smaller width and margins for footer button */
+.footerbtn {
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* Customer sized inline buttons for form button */
+.formbtn {
+    margin-top: 5px;
+    margin-right: 16px;
+    width: 190px;
+    height: 60px;
+    /* Requires white bg set and inline as form buttons behave differently than divs */
+    background-color: white;
+    display: inline;
+    
+}
+
+/* Define layout for input form */
+input[type='text'], input[type='password'], input[type='email'] {
+    width: 401px;
+    padding: 12px 20px;
+    margin-top: 4px ;
+    display: inline-block;
+    border: 2px solid #F67C92;
+    box-sizing: border-box;
+}
